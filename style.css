@@ -1,0 +1,44 @@
+#root{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+ margin-top: 5em;
+}
+
+.flags{
+  background: #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+.flags h2{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.flags p{
+  font-size: 22px;
+}
+
+form{
+  margin-top: 30px;
+  text-align: center;
+}
+form input[type="text"]{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.btn{
+  padding: 10px 30px;
+  background: #1546cd;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 20px;
+
+}
